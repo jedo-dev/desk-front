@@ -1,0 +1,31 @@
+.layout {
+  overflow: hidden;
+}
+
+.sider {
+  -webkit-box-shadow: 4px 4px 8px 0px rgba(9, 109, 217, 0.2);
+  -moz-box-shadow: 4px 4px 8px 0px rgba(9, 109, 217, 0.2);
+  box-shadow: 4px 4px 8px 0px rgba(9, 109, 217, 0.2);
+  height: 100vh;
+}
+
+.sider > div:first-child {
+  display: flex;
+  flex-direction: column;
+}
+
+.sider:before {
+  position: absolute;
+  right: 1px;
+  top: 1px;
+  pointer-events: none;
+  opacity: 0.5;
+  content: url('/wave.png');
+  filter: blur(1.5em);
+}
+
+.content {
+  padding: 16px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}

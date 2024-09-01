@@ -1,0 +1,691 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ReactoTypesPage > Страница станций отрендерилась и соответсвует макету 1`] = `
+<div
+  data-testid="ReactorTypesPageTest"
+>
+  <div
+    class="ant-card ant-card-bordered css-dev-only-do-not-override-1qhpsh8"
+    data-testid="ReactorTypesCardTest"
+  >
+    <div
+      class="ant-card-head"
+    >
+      <div
+        class="ant-card-head-wrapper"
+      >
+        <div
+          class="ant-card-head-title"
+        >
+          <span
+            class="_card_title_cd6622"
+            data-testid="ReactorTypesCardSpanTest"
+          >
+            Типы реакторов
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      class="ant-card-body"
+    >
+      <div
+        class="_flex_withInteractiveElements_d089f8 ant-flex css-dev-only-do-not-override-1qhpsh8"
+      >
+        <div
+          class="_flex_interactionButtons_d089f8 ant-flex css-dev-only-do-not-override-1qhpsh8 ant-flex-align-center ant-flex-justify-flex-end ant-flex-gap-middle"
+        >
+          <button
+            class="ant-btn css-dev-only-do-not-override-1qhpsh8 ant-btn-primary ant-btn-icon-only ant-btn-background-ghost _resetFilters_3bea28"
+            type="button"
+          >
+            <span
+              class="ant-btn-icon"
+            >
+              <span
+                aria-label="clear"
+                class="anticon anticon-clear"
+                role="img"
+              >
+                <svg
+                  aria-hidden="true"
+                  data-icon="clear"
+                  fill="currentColor"
+                  focusable="false"
+                  height="1em"
+                  viewBox="64 64 896 896"
+                  width="1em"
+                >
+                  <defs>
+                    <style />
+                  </defs>
+                  <path
+                    d="M899.1 869.6l-53-305.6H864c14.4 0 26-11.6 26-26V346c0-14.4-11.6-26-26-26H618V138c0-14.4-11.6-26-26-26H432c-14.4 0-26 11.6-26 26v182H160c-14.4 0-26 11.6-26 26v192c0 14.4 11.6 26 26 26h17.9l-53 305.6a25.95 25.95 0 0025.6 30.4h723c1.5 0 3-.1 4.4-.4a25.88 25.88 0 0021.2-30zM204 390h272V182h72v208h272v104H204V390zm468 440V674c0-4.4-3.6-8-8-8h-48c-4.4 0-8 3.6-8 8v156H416V674c0-4.4-3.6-8-8-8h-48c-4.4 0-8 3.6-8 8v156H202.8l45.1-260H776l45.1 260H672z"
+                  />
+                </svg>
+              </span>
+            </span>
+          </button>
+          <button
+            class="ant-btn css-dev-only-do-not-override-1qhpsh8 ant-btn-primary ant-btn-icon-only ant-btn-background-ghost _addElem_3bea28"
+            type="button"
+          >
+            <span
+              class="ant-btn-icon"
+            >
+              <span
+                aria-label="plus"
+                class="anticon anticon-plus"
+                role="img"
+              >
+                <svg
+                  aria-hidden="true"
+                  data-icon="plus"
+                  fill="currentColor"
+                  focusable="false"
+                  height="1em"
+                  viewBox="64 64 896 896"
+                  width="1em"
+                >
+                  <path
+                    d="M482 152h60q8 0 8 8v704q0 8-8 8h-60q-8 0-8-8V160q0-8 8-8z"
+                  />
+                  <path
+                    d="M192 474h672q8 0 8 8v60q0 8-8 8H160q-8 0-8-8v-60q0-8 8-8z"
+                  />
+                </svg>
+              </span>
+            </span>
+          </button>
+          <button
+            class="ant-btn css-dev-only-do-not-override-1qhpsh8 ant-btn-primary ant-btn-icon-only ant-btn-background-ghost _refresh_3bea28"
+            type="button"
+          >
+            <span
+              class="ant-btn-icon"
+            >
+              <span
+                aria-label="sync"
+                class="anticon anticon-sync"
+                role="img"
+              >
+                <svg
+                  aria-hidden="true"
+                  data-icon="sync"
+                  fill="currentColor"
+                  focusable="false"
+                  height="1em"
+                  viewBox="64 64 896 896"
+                  width="1em"
+                >
+                  <path
+                    d="M168 504.2c1-43.7 10-86.1 26.9-126 17.3-41 42.1-77.7 73.7-109.4S337 212.3 378 195c42.4-17.9 87.4-27 133.9-27s91.5 9.1 133.8 27A341.5 341.5 0 01755 268.8c9.9 9.9 19.2 20.4 27.8 31.4l-60.2 47a8 8 0 003 14.1l175.7 43c5 1.2 9.9-2.6 9.9-7.7l.8-180.9c0-6.7-7.7-10.5-12.9-6.3l-56.4 44.1C765.8 155.1 646.2 92 511.8 92 282.7 92 96.3 275.6 92 503.8a8 8 0 008 8.2h60c4.4 0 7.9-3.5 8-7.8zm756 7.8h-60c-4.4 0-7.9 3.5-8 7.8-1 43.7-10 86.1-26.9 126-17.3 41-42.1 77.8-73.7 109.4A342.45 342.45 0 01512.1 856a342.24 342.24 0 01-243.2-100.8c-9.9-9.9-19.2-20.4-27.8-31.4l60.2-47a8 8 0 00-3-14.1l-175.7-43c-5-1.2-9.9 2.6-9.9 7.7l-.7 181c0 6.7 7.7 10.5 12.9 6.3l56.4-44.1C258.2 868.9 377.8 932 512.2 932c229.2 0 415.5-183.7 419.8-411.8a8 8 0 00-8-8.2z"
+                  />
+                </svg>
+              </span>
+            </span>
+          </button>
+        </div>
+      </div>
+      <div
+        class="ant-table-wrapper css-dev-only-do-not-override-1qhpsh8"
+        style="overflow-x: auto;"
+      >
+        <div
+          class="ant-spin-nested-loading css-dev-only-do-not-override-1qhpsh8"
+        >
+          <div
+            class="ant-spin-container"
+          >
+            <div
+              class="ant-table ant-table-bordered css-dev-only-do-not-override-1qhpsh8 ant-table-scroll-horizontal"
+            >
+              <div
+                class="ant-table-container"
+              >
+                <div
+                  class="ant-table-content"
+                  style="overflow-x: auto; overflow-y: hidden;"
+                >
+                  <table
+                    style="min-width: 100%; table-layout: auto;"
+                  >
+                    <colgroup />
+                    <thead
+                      class="ant-table-thead"
+                    >
+                      <tr>
+                        <th
+                          class="ant-table-cell"
+                          scope="col"
+                          style="text-align: center;"
+                        >
+                          <div
+                            class="ant-table-filter-column"
+                          >
+                            <span
+                              class="ant-table-column-title"
+                            >
+                              Код реактора
+                            </span>
+                            <span
+                              class="ant-dropdown-trigger ant-table-filter-trigger"
+                              role="button"
+                              tabindex="-1"
+                            >
+                              <span
+                                aria-label="filter"
+                                class="anticon anticon-filter"
+                                role="img"
+                              >
+                                <svg
+                                  aria-hidden="true"
+                                  data-icon="filter"
+                                  fill="currentColor"
+                                  focusable="false"
+                                  height="1em"
+                                  viewBox="64 64 896 896"
+                                  width="1em"
+                                >
+                                  <path
+                                    d="M349 838c0 17.7 14.2 32 31.8 32h262.4c17.6 0 31.8-14.3 31.8-32V642H349v196zm531.1-684H143.9c-24.5 0-39.8 26.7-27.5 48l221.3 376h348.8l221.3-376c12.1-21.3-3.2-48-27.7-48z"
+                                  />
+                                </svg>
+                              </span>
+                            </span>
+                          </div>
+                        </th>
+                        <th
+                          aria-label="Наименование"
+                          class="ant-table-cell ant-table-column-has-sorters"
+                          scope="col"
+                          style="text-align: center;"
+                          tabindex="0"
+                        >
+                          <div
+                            class="ant-table-filter-column"
+                          >
+                            <span
+                              class="ant-table-column-title"
+                            >
+                              <div
+                                class="ant-table-column-sorters"
+                              >
+                                <span
+                                  class="ant-table-column-title"
+                                >
+                                  Наименование
+                                </span>
+                                <span
+                                  class="ant-table-column-sorter ant-table-column-sorter-full"
+                                >
+                                  <span
+                                    aria-hidden="true"
+                                    class="ant-table-column-sorter-inner"
+                                  >
+                                    <span
+                                      aria-label="caret-up"
+                                      class="anticon anticon-caret-up ant-table-column-sorter-up"
+                                      role="img"
+                                    >
+                                      <svg
+                                        aria-hidden="true"
+                                        data-icon="caret-up"
+                                        fill="currentColor"
+                                        focusable="false"
+                                        height="1em"
+                                        viewBox="0 0 1024 1024"
+                                        width="1em"
+                                      >
+                                        <path
+                                          d="M858.9 689L530.5 308.2c-9.4-10.9-27.5-10.9-37 0L165.1 689c-12.2 14.2-1.2 35 18.5 35h656.8c19.7 0 30.7-20.8 18.5-35z"
+                                        />
+                                      </svg>
+                                    </span>
+                                    <span
+                                      aria-label="caret-down"
+                                      class="anticon anticon-caret-down ant-table-column-sorter-down"
+                                      role="img"
+                                    >
+                                      <svg
+                                        aria-hidden="true"
+                                        data-icon="caret-down"
+                                        fill="currentColor"
+                                        focusable="false"
+                                        height="1em"
+                                        viewBox="0 0 1024 1024"
+                                        width="1em"
+                                      >
+                                        <path
+                                          d="M840.4 300H183.6c-19.7 0-30.7 20.8-18.5 35l328.4 380.8c9.4 10.9 27.5 10.9 37 0L858.9 335c12.2-14.2 1.2-35-18.5-35z"
+                                        />
+                                      </svg>
+                                    </span>
+                                  </span>
+                                </span>
+                              </div>
+                            </span>
+                            <span
+                              class="ant-dropdown-trigger ant-table-filter-trigger"
+                              role="button"
+                              tabindex="-1"
+                            >
+                              <span
+                                aria-label="filter"
+                                class="anticon anticon-filter"
+                                role="img"
+                              >
+                                <svg
+                                  aria-hidden="true"
+                                  data-icon="filter"
+                                  fill="currentColor"
+                                  focusable="false"
+                                  height="1em"
+                                  viewBox="64 64 896 896"
+                                  width="1em"
+                                >
+                                  <path
+                                    d="M349 838c0 17.7 14.2 32 31.8 32h262.4c17.6 0 31.8-14.3 31.8-32V642H349v196zm531.1-684H143.9c-24.5 0-39.8 26.7-27.5 48l221.3 376h348.8l221.3-376c12.1-21.3-3.2-48-27.7-48z"
+                                  />
+                                </svg>
+                              </span>
+                            </span>
+                          </div>
+                        </th>
+                        <th
+                          aria-label="Описание"
+                          class="ant-table-cell ant-table-column-has-sorters"
+                          scope="col"
+                          style="text-align: center;"
+                          tabindex="0"
+                        >
+                          <div
+                            class="ant-table-column-sorters"
+                          >
+                            <span
+                              class="ant-table-column-title"
+                            >
+                              Описание
+                            </span>
+                            <span
+                              class="ant-table-column-sorter ant-table-column-sorter-full"
+                            >
+                              <span
+                                aria-hidden="true"
+                                class="ant-table-column-sorter-inner"
+                              >
+                                <span
+                                  aria-label="caret-up"
+                                  class="anticon anticon-caret-up ant-table-column-sorter-up"
+                                  role="img"
+                                >
+                                  <svg
+                                    aria-hidden="true"
+                                    data-icon="caret-up"
+                                    fill="currentColor"
+                                    focusable="false"
+                                    height="1em"
+                                    viewBox="0 0 1024 1024"
+                                    width="1em"
+                                  >
+                                    <path
+                                      d="M858.9 689L530.5 308.2c-9.4-10.9-27.5-10.9-37 0L165.1 689c-12.2 14.2-1.2 35 18.5 35h656.8c19.7 0 30.7-20.8 18.5-35z"
+                                    />
+                                  </svg>
+                                </span>
+                                <span
+                                  aria-label="caret-down"
+                                  class="anticon anticon-caret-down ant-table-column-sorter-down"
+                                  role="img"
+                                >
+                                  <svg
+                                    aria-hidden="true"
+                                    data-icon="caret-down"
+                                    fill="currentColor"
+                                    focusable="false"
+                                    height="1em"
+                                    viewBox="0 0 1024 1024"
+                                    width="1em"
+                                  >
+                                    <path
+                                      d="M840.4 300H183.6c-19.7 0-30.7 20.8-18.5 35l328.4 380.8c9.4 10.9 27.5 10.9 37 0L858.9 335c12.2-14.2 1.2-35-18.5-35z"
+                                    />
+                                  </svg>
+                                </span>
+                              </span>
+                            </span>
+                          </div>
+                        </th>
+                        <th
+                          class="ant-table-cell"
+                          scope="col"
+                          style="text-align: center;"
+                        >
+                          Активный
+                        </th>
+                        <th
+                          class="ant-table-cell"
+                          scope="col"
+                          style="text-align: center;"
+                        >
+                          Действия
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody
+                      class="ant-table-tbody"
+                    >
+                      <tr
+                        aria-hidden="true"
+                        class="ant-table-measure-row"
+                        style="height: 0px; font-size: 0px;"
+                      >
+                        <td
+                          style="padding: 0px; border: 0px; height: 0px;"
+                        >
+                          <div
+                            style="height: 0px; overflow: hidden;"
+                          >
+                             
+                          </div>
+                        </td>
+                        <td
+                          style="padding: 0px; border: 0px; height: 0px;"
+                        >
+                          <div
+                            style="height: 0px; overflow: hidden;"
+                          >
+                             
+                          </div>
+                        </td>
+                        <td
+                          style="padding: 0px; border: 0px; height: 0px;"
+                        >
+                          <div
+                            style="height: 0px; overflow: hidden;"
+                          >
+                             
+                          </div>
+                        </td>
+                        <td
+                          style="padding: 0px; border: 0px; height: 0px;"
+                        >
+                          <div
+                            style="height: 0px; overflow: hidden;"
+                          >
+                             
+                          </div>
+                        </td>
+                        <td
+                          style="padding: 0px; border: 0px; height: 0px;"
+                        >
+                          <div
+                            style="height: 0px; overflow: hidden;"
+                          >
+                             
+                          </div>
+                        </td>
+                      </tr>
+                      <tr
+                        class="ant-table-row ant-table-row-level-0"
+                        data-row-key="test_kol"
+                      >
+                        <td
+                          class="ant-table-cell"
+                          style="text-align: center;"
+                        >
+                          ВВЭР
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                          style="text-align: center;"
+                        >
+                          Водно-водяной энергетический реактор
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                          style="text-align: center;"
+                        >
+                          Водно-водяной энергетический реактор
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                          style="text-align: center;"
+                        >
+                          <label
+                            class="ant-checkbox-wrapper ant-checkbox-wrapper-disabled css-dev-only-do-not-override-1qhpsh8"
+                          >
+                            <span
+                              class="ant-checkbox ant-wave-target css-dev-only-do-not-override-1qhpsh8 ant-checkbox-checked ant-checkbox-disabled"
+                            >
+                              <input
+                                checked=""
+                                class="ant-checkbox-input"
+                                disabled=""
+                                type="checkbox"
+                              />
+                              <span
+                                class="ant-checkbox-inner"
+                              />
+                            </span>
+                          </label>
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                          style="text-align: center;"
+                        >
+                          <div
+                            class="ant-flex css-dev-only-do-not-override-1qhpsh8 ant-flex-justify-center ant-flex-gap-small"
+                          >
+                            <button
+                              class="ant-btn css-dev-only-do-not-override-1qhpsh8 ant-btn-circle ant-btn-primary ant-btn-sm ant-btn-icon-only ant-btn-background-ghost"
+                              data-testid="clickEditTest"
+                              style="padding: 0px; color: rgb(218, 165, 32); border-color: #daa520;"
+                              type="button"
+                            >
+                              <span
+                                class="ant-btn-icon"
+                              >
+                                <span
+                                  aria-label="edit"
+                                  class="anticon anticon-edit"
+                                  role="img"
+                                >
+                                  <svg
+                                    aria-hidden="true"
+                                    data-icon="edit"
+                                    fill="currentColor"
+                                    focusable="false"
+                                    height="1em"
+                                    viewBox="64 64 896 896"
+                                    width="1em"
+                                  >
+                                    <path
+                                      d="M257.7 752c2 0 4-.2 6-.5L431.9 722c2-.4 3.9-1.3 5.3-2.8l423.9-423.9a9.96 9.96 0 000-14.1L694.9 114.9c-1.9-1.9-4.4-2.9-7.1-2.9s-5.2 1-7.1 2.9L256.8 538.8c-1.5 1.5-2.4 3.3-2.8 5.3l-29.5 168.2a33.5 33.5 0 009.4 29.8c6.6 6.4 14.9 9.9 23.8 9.9zm67.4-174.4L687.8 215l73.3 73.3-362.7 362.6-88.9 15.7 15.6-89zM880 836H144c-17.7 0-32 14.3-32 32v36c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-36c0-17.7-14.3-32-32-32z"
+                                    />
+                                  </svg>
+                                </span>
+                              </span>
+                            </button>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr
+                        class="ant-table-row ant-table-row-level-0"
+                        data-row-key="test_bel"
+                      >
+                        <td
+                          class="ant-table-cell"
+                          style="text-align: center;"
+                        >
+                          РБМК
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                          style="text-align: center;"
+                        >
+                          Реактор большой мощности канальный
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                          style="text-align: center;"
+                        >
+                          Реактор большой мощности канальный
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                          style="text-align: center;"
+                        >
+                          <label
+                            class="ant-checkbox-wrapper ant-checkbox-wrapper-disabled css-dev-only-do-not-override-1qhpsh8"
+                          >
+                            <span
+                              class="ant-checkbox ant-wave-target css-dev-only-do-not-override-1qhpsh8 ant-checkbox-checked ant-checkbox-disabled"
+                            >
+                              <input
+                                checked=""
+                                class="ant-checkbox-input"
+                                disabled=""
+                                type="checkbox"
+                              />
+                              <span
+                                class="ant-checkbox-inner"
+                              />
+                            </span>
+                          </label>
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                          style="text-align: center;"
+                        >
+                          <div
+                            class="ant-flex css-dev-only-do-not-override-1qhpsh8 ant-flex-justify-center ant-flex-gap-small"
+                          >
+                            <button
+                              class="ant-btn css-dev-only-do-not-override-1qhpsh8 ant-btn-circle ant-btn-primary ant-btn-sm ant-btn-icon-only ant-btn-background-ghost"
+                              data-testid="clickEditTest"
+                              style="padding: 0px; color: rgb(218, 165, 32); border-color: #daa520;"
+                              type="button"
+                            >
+                              <span
+                                class="ant-btn-icon"
+                              >
+                                <span
+                                  aria-label="edit"
+                                  class="anticon anticon-edit"
+                                  role="img"
+                                >
+                                  <svg
+                                    aria-hidden="true"
+                                    data-icon="edit"
+                                    fill="currentColor"
+                                    focusable="false"
+                                    height="1em"
+                                    viewBox="64 64 896 896"
+                                    width="1em"
+                                  >
+                                    <path
+                                      d="M257.7 752c2 0 4-.2 6-.5L431.9 722c2-.4 3.9-1.3 5.3-2.8l423.9-423.9a9.96 9.96 0 000-14.1L694.9 114.9c-1.9-1.9-4.4-2.9-7.1-2.9s-5.2 1-7.1 2.9L256.8 538.8c-1.5 1.5-2.4 3.3-2.8 5.3l-29.5 168.2a33.5 33.5 0 009.4 29.8c6.6 6.4 14.9 9.9 23.8 9.9zm67.4-174.4L687.8 215l73.3 73.3-362.7 362.6-88.9 15.7 15.6-89zM880 836H144c-17.7 0-32 14.3-32 32v36c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-36c0-17.7-14.3-32-32-32z"
+                                    />
+                                  </svg>
+                                </span>
+                              </span>
+                            </button>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr
+                        class="ant-table-row ant-table-row-level-0"
+                        data-row-key="test_kln"
+                      >
+                        <td
+                          class="ant-table-cell"
+                          style="text-align: center;"
+                        >
+                          БН
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                          style="text-align: center;"
+                        >
+                          Реактор на быстрых нейтронах
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                          style="text-align: center;"
+                        >
+                          Реактор на быстрых нейтронах
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                          style="text-align: center;"
+                        >
+                          <label
+                            class="ant-checkbox-wrapper ant-checkbox-wrapper-disabled css-dev-only-do-not-override-1qhpsh8"
+                          >
+                            <span
+                              class="ant-checkbox ant-wave-target css-dev-only-do-not-override-1qhpsh8 ant-checkbox-disabled"
+                            >
+                              <input
+                                class="ant-checkbox-input"
+                                disabled=""
+                                type="checkbox"
+                              />
+                              <span
+                                class="ant-checkbox-inner"
+                              />
+                            </span>
+                          </label>
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                          style="text-align: center;"
+                        >
+                          <div
+                            class="ant-flex css-dev-only-do-not-override-1qhpsh8 ant-flex-justify-center ant-flex-gap-small"
+                          >
+                            <button
+                              class="ant-btn css-dev-only-do-not-override-1qhpsh8 ant-btn-circle ant-btn-primary ant-btn-sm ant-btn-icon-only ant-btn-background-ghost"
+                              data-testid="clickEditTest"
+                              style="padding: 0px; color: rgb(218, 165, 32); border-color: #daa520;"
+                              type="button"
+                            >
+                              <span
+                                class="ant-btn-icon"
+                              >
+                                <span
+                                  aria-label="edit"
+                                  class="anticon anticon-edit"
+                                  role="img"
+                                >
+                                  <svg
+                                    aria-hidden="true"
+                                    data-icon="edit"
+                                    fill="currentColor"
+                                    focusable="false"
+                                    height="1em"
+                                    viewBox="64 64 896 896"
+                                    width="1em"
+                                  >
+                                    <path
+                                      d="M257.7 752c2 0 4-.2 6-.5L431.9 722c2-.4 3.9-1.3 5.3-2.8l423.9-423.9a9.96 9.96 0 000-14.1L694.9 114.9c-1.9-1.9-4.4-2.9-7.1-2.9s-5.2 1-7.1 2.9L256.8 538.8c-1.5 1.5-2.4 3.3-2.8 5.3l-29.5 168.2a33.5 33.5 0 009.4 29.8c6.6 6.4 14.9 9.9 23.8 9.9zm67.4-174.4L687.8 215l73.3 73.3-362.7 362.6-88.9 15.7 15.6-89zM880 836H144c-17.7 0-32 14.3-32 32v36c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-36c0-17.7-14.3-32-32-32z"
+                                    />
+                                  </svg>
+                                </span>
+                              </span>
+                            </button>
+                          </div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap');
+@import url('tldraw/tldraw.css');
+
+body {
+  font-family: 'Inter';
+}
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Настройки скролл-бара */
+
+/* ширина вертикального и высота горизонтального скролл-бара */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 8px;
+}
+
+/* стиль дорожки */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 0 grey;
+  border-radius: 0;
+}
+
+/* стиль ползунка */
+::-webkit-scrollbar-thumb {
+  background: #78bbf6;
+  border-radius: 0;
+}
+
+/* ---- */
+
+/* Чинит баг с черной окантовкой блоков при нажатии с зажатым shift */
+*:focus-visible {
+  outline: none;
+  border: none;
+}

@@ -1,0 +1,47 @@
+.greenButton {
+  background-color: #6bb369;
+}
+
+.greenButton:hover {
+  background-color: #6bb369 !important;
+  opacity: 0.7;
+  border-color: #6bb369;
+}
+
+.greenButton:active {
+  background-color: #6bb369 !important;
+  opacity: 0.5;
+  border-color: #6bb369;
+}
+
+.greenButton:focus {
+  background-color: #6bb369 !important;
+  opacity: 0.5;
+  border-color: #6bb369;
+}
+
+.redButton {
+  background-color: #ed7878;
+  color: white;
+}
+
+.redButton:hover {
+  background-color: #ed7878 !important;
+  opacity: 0.7;
+  border-color: #ed7878 !important;
+  color: white !important;
+}
+
+.redButton:active {
+  background-color: #ed7878 !important;
+  opacity: 0.7;
+  border-color: #ed7878 !important;
+  color: white !important;
+}
+
+.redButton:focus {
+  background-color: #ed7878 !important;
+  opacity: 0.7;
+  border-color: #ed7878 !important;
+  color: white !important;
+}

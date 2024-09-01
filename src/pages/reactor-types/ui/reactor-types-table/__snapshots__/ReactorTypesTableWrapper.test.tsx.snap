@@ -1,0 +1,62 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`StationsTable > Конфигурация колонок соответсвует макету для компонента StationsTable 1`] = `
+[
+  {
+    "align": "center",
+    "dataIndex": "code_name",
+    "filters": [
+      {
+        "text": "КОЛ АЭС",
+        "value": "КОЛ АЭС",
+      },
+      {
+        "text": "БЕЛ АЭС",
+        "value": "БЕЛ АЭС",
+      },
+    ],
+    "key": "code_name",
+    "onFilter": [Function],
+    "title": "Код реактора",
+  },
+  {
+    "align": "center",
+    "dataIndex": "full_name",
+    "filters": [
+      {
+        "text": "Кольская АЭС",
+        "value": "Кольская АЭС",
+      },
+      {
+        "text": "Белоярская АЭС",
+        "value": "Белоярская АЭС",
+      },
+    ],
+    "key": "full_name",
+    "onFilter": [Function],
+    "sorter": [Function],
+    "title": "Наименование",
+  },
+  {
+    "align": "center",
+    "dataIndex": "description",
+    "key": "description",
+    "sorter": [Function],
+    "title": "Описание",
+  },
+  {
+    "align": "center",
+    "dataIndex": "is_active",
+    "key": "is_active",
+    "render": [Function],
+    "title": "Активный",
+  },
+  {
+    "align": "center",
+    "dataIndex": "id",
+    "key": "actions",
+    "render": [Function],
+    "title": "Действия",
+  },
+]
+`;

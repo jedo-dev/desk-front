@@ -1,0 +1,18 @@
+.header {
+  padding-left: 16px;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(30deg, #ffffff 70%, #78bbf6 100%);
+}
+
+.button {
+  font-size: 16px;
+  width: 64;
+  height: 64;
+}
+
+.title {
+  padding-left: 16px !important;
+  align-self: center !important;
+  margin: 0 !important;
+}

@@ -1,0 +1,6 @@
+.centerTitle {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,54 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`stations-columns > конфигурация колонок соответсует макету 1`] = `
+[
+  {
+    "align": "center",
+    "dataIndex": "code_name",
+    "filterIcon": [Function],
+    "filters": [],
+    "key": "code_name",
+    "title": "Код станции",
+  },
+  {
+    "align": "center",
+    "dataIndex": "full_name",
+    "filterIcon": [Function],
+    "filters": [],
+    "key": "full_name",
+    "title": "Название станции",
+  },
+  {
+    "align": "center",
+    "dataIndex": "description",
+    "filterIcon": [Function],
+    "filters": [],
+    "key": "description",
+    "title": "Описание",
+  },
+  {
+    "align": "center",
+    "dataIndex": "is_active",
+    "filters": [
+      {
+        "text": "Да",
+        "value": "Да",
+      },
+      {
+        "text": "Нет",
+        "value": "Нет",
+      },
+    ],
+    "key": "is_active",
+    "render": [Function],
+    "title": "Активный",
+  },
+  {
+    "align": "center",
+    "dataIndex": "id",
+    "key": "actions",
+    "render": [Function],
+    "title": "Действия",
+  },
+]
+`;
