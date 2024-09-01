@@ -2,8 +2,8 @@ version: '3'
 services:
   frontend:
     hostname: frontend
-    image: social-frontend:latest
-    container_name: social-frontend
+    image: desk-frontend:latest
+    container_name: desk-frontend
     restart: unless-stopped
     ports:
       - '3211:3000'
