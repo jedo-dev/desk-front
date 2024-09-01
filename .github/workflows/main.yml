@@ -19,7 +19,7 @@ jobs:
       - name: Docker Build image
         run: |
           echo "Build Started..."
-          docker build --pull --rm -f "Dockerfile" -t social-frontend:latest "."
+          docker build --pull --rm -f "Dockerfile" -t desk-frontend:latest "."
       - name: Docker Compose
         run: |
           echo "Compose Started..."
