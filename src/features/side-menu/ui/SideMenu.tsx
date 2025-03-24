@@ -1,6 +1,5 @@
+import { List } from 'antd';
 import React from 'react';
-import { Avatar, List } from 'antd';
-import { FileExcelOutlined } from '@ant-design/icons';
 
 const data = [
   {
@@ -19,15 +18,16 @@ const data = [
 
 export const SideMenu: React.FC = () => (
   <List
-    itemLayout='horizontal'
+    itemLayout='vertical'
     dataSource={data}
-    renderItem={(item, index) => (
-      <List.Item>
-        <List.Item.Meta
-          avatar={<Avatar src={<FileExcelOutlined />} />}
-          title={<a href='https://ant.design'>{item.title}</a>}
-        />
-      </List.Item>
-    )}
+    renderItem={(item, index) =>
+      item.title
+      // <List.Item>
+      //   <List.Item.Meta
+      //     avatar={<Avatar src={<FileExcelOutlined />} />}
+      //     title={<a href='https://ant.design'>{item.title}</a>}
+      //   />
+      // </List.Item>
+    }
   />
 );
