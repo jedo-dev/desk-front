@@ -6,6 +6,8 @@ import { describe, expect, it, vi } from 'vitest';
 import { SideMenu } from './SideMenu';
 const mockedUseNavigate = vi.fn();
 
+
+
 //? Мокаем хук useGetMenuQuery
 vi.mock('@entities', () => ({
   useGetMenuQuery: vi.fn().mockReturnValue({
